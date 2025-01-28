@@ -12,7 +12,7 @@ function getUserById(userId) {
 
 function getCommentById(postId) {
   return (
-    commentsFromServer.filter(comment => comment.postId === postId) || null
+    commentsFromServer.filter(comment => comment.postId === postId)
   );
 }
 
